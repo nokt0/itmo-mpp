@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="dijkstra.ConcurrentStressTest" time="1.419" errors="0" skipped="0">
+  <properties>
+    <property name="idea.plugins.compatible.build" value="201.6668.13"/>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.10+5-MTS"/>
+    <property name="sun.boot.library.path" value="/Users/nokt0/Library/Java/JavaVirtualMachines/azul-13.0.10/Contents/Home/lib"/>
+    <property name="jdk.vendor.version" value="Zulu13.46+15-CA"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/nokt0/IdeaProjects/dijkstra-nokt0"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/nokt0/IdeaProjects/dijkstra-nokt0"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.10+5-MTS"/>
+    <property name="kotlin.incremental.compilation" value="false"/>
+    <property name="idea.io.use.nio2" value="true"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/hb/2x26byg53f9fmscg686wv9jc0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Users/nokt0/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.7172.25/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Users/nokt0/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.7172.25/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="ide.hide.excluded.files" value="false"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/nokt0/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="psi.track.invalidation" value="true"/>
+    <property name="maven.conf" value="/Users/nokt0/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.7172.25/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="project.structure.add.tools.jar.to.new.jdk" value="false"/>
+    <property name="os.version" value="12.3"/>
+    <property name="psi.incremental.reparse.depth.limit" value="1000"/>
+    <property name="user.home" value="/Users/nokt0"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="idea.home.path" value="/var/folders/hb/2x26byg53f9fmscg686wv9jc0000gn/T/"/>
+    <property name="user.name" value="nokt0"/>
+    <property name="java.class.path" value="/Users/nokt0/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.7172.25/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Users/nokt0/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.7172.25/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.3 test"/>
+    <property name="java.home" value="/Users/nokt0/Library/Java/JavaVirtualMachines/azul-13.0.10/Contents/Home"/>
+    <property name="ast.loading.filter" value="false"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="13.0.10"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.home" value="/Users/nokt0/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.7172.25/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Zulu13.46+15-CA"/>
+    <property name="idea.ignore.disabled.plugins" value="true"/>
+  </properties>
+  <testcase classname="dijkstra.ConcurrentStressTest" name="test on small graphs" time="0.777"/>
+  <testcase classname="dijkstra.ConcurrentStressTest" name="test on trees" time="0.328"/>
+  <testcase classname="dijkstra.ConcurrentStressTest" name="test on very small graphs" time="0.314"/>
+</testsuite>

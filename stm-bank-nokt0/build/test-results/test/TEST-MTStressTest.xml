@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MTStressTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-15T18:47:57" hostname="MacBook-Pro-Vladislav.local" time="21.693">
+  <properties/>
+  <testcase name="testStress" classname="MTStressTest" time="21.693"/>
+  <system-out><![CDATA[Phase # 1 - done      2,160 ops (warm up)
+Phase # 2 - done      2,394 ops (warm up)
+Phase # 3 - done      1,675 ops (warm up)
+Phase # 4 - done      1,007 ops (warm up)
+Phase # 5 - done      1,458 ops (warm up)
+Phase # 6 - done      1,384 ops (measure)
+Phase # 7 - done      1,316 ops (measure)
+Phase # 8 - done      1,840 ops (measure)
+Phase # 9 - done      1,139 ops (measure)
+Phase #10 - done      1,440 ops (measure)
+Average ops per phase: 1,424 +- 259
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
